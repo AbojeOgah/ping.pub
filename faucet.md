@@ -6,16 +6,16 @@
 {
     "chain_name": "cosmos",
     // string array ["url1", "url2"] is deprecated.
-    // must be [{"address": "", "provider": ""}]
+    // must be [{"union1xft5l3n3c5gu3gtypzf8g4hvzd4xx6ghp09kmg": "", "provider": ""}]
     "api": [
         {
-            "address": "https://cosmos.api.ping.pub", 
+            "union1xft5l3n3c5gu3gtypzf8g4hvzd4xx6ghp09kmg": "https://cosmos.api.ping.pub", 
             "provider": "Ping"
         }
     ], 
     "rpc": [
         {
-            "address": "https://cosmos.api.ping.pub:443", 
+            "union1xft5l3n3c5gu3gtypzf8g4hvzd4xx6ghp09kmg": "https://cosmos.api.ping.pub:443", 
             "provider": "Ping"
         }
     ],
